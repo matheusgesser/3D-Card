@@ -1,7 +1,8 @@
 const sizeBtns = document.querySelectorAll(".sizes button");
-sizeBtns.forEach(sizeBtn => { sizeBtn.addEventListener('click', () => {
-    sizeBtns.forEach(sizeBtn => {sizeBtn.classList.remove('active');});
-    sizeBtn.classList.add('active');
+sizeBtns.forEach(sizeBtn => {
+    sizeBtn.addEventListener('click', () => {
+        sizeBtns.forEach(sizeBtn => { sizeBtn.classList.remove('active'); });
+        sizeBtn.classList.add('active');
     });
 });
 
@@ -13,6 +14,7 @@ const description = document.querySelector(".info");
 
 //Moving Animation Event
 container.addEventListener("mousemove", (e) => {
+    console.log(e.pageX, e.pageY);
     let xAxis = (window.innerWidth / 2 - e.pageX) / 35;
     let yAxis = (window.innerHeight / 2 - e.pageY) / 35;
     card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
