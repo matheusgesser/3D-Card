@@ -13,14 +13,14 @@ const sneaker = document.querySelector(".sneaker");
 const description = document.querySelector(".info");
 
 container.addEventListener("mousemove", (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 35;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 35;
+    let xAxis = (window.innerWidth / 2 - e.pageX)*-1 / 60;
+    let yAxis = (window.innerHeight / 2 - e.pageY) / 60;
     card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 });
 
 container.addEventListener("mouseenter", (e) => {
-    sneaker.style.transform = "translateZ(200px) rotateZ(-45deg)";
-    description.style.transform = "translateZ(150px)";
+    sneaker.style.transform = "translateZ(150px)";
+    description.style.transform = "translateZ(100px)";
     card.style.transition = "none";
 });
 
