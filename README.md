@@ -2,4 +2,6 @@
 
 Insipiração YouTube @developedbyed
 
-Preview https://codepen.io/matheusgesser/pen/LYBLgdy
+# Preview/Demo
+
+https://gesser3dcard.netlify.app/
