@@ -1,6 +1,6 @@
 # 3D-Card
 
-Insipiração YouTube @developedbyed
+Inspiration YouTube @developedbyed
 
 # Preview/Demo
 
