@@ -1,13 +1,13 @@
-# 3D-Card
+# 🃏 3D Card
 
-Inspiration YouTube @developedbyed
+![GitHub repo size](https://img.shields.io/github/repo-size/matheusgesser/3D-Card?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/matheusgesser/3D-Card?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/matheusgesser/3D-Card?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/matheusgesser/3D-Card?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/matheusgesser/3D-Card?style=for-the-badge)
 
-# Preview/Demo
+<img src="https://i.imgur.com/aY7YAuk.png" alt="Demo image">
 
-https://gesser3dcard.netlify.app/
+> 3D card simulating the tilt.js library.
 
-<img src="https://i.imgur.com/aY7YAuk.png" />
-
-## 💻 **Tecnologias**
-
-<img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white' /><img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' /><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' />
+**Try it: <a href="https://gesser3dcard.netlify.app/" target='_blank'>gesser3dcard.netlify.app</a>**
